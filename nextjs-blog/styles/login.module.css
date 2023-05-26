@@ -1,0 +1,74 @@
+.container{
+    margin:0 auto;  /* 화면 중앙에 배치 */
+    width:1200px;    /* 너비 */    
+    background-color: #fff;
+}
+.Header{
+    background-color: gray;  
+    height:50px;   /* 높이 */ 
+}
+.logo{
+    margin-top:70px;
+}
+.logo p{
+    font-size: 45px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo1{
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    color: #666;
+    text-align: center;
+}
+.logo2{
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #666;
+}
+.inputBox{
+    margin-top: 10px;
+    text-align: center;
+}
+.idP, .pwdP{
+    font-size: 15px;
+    margin-top: 30px;
+    color:#666;
+    font-weight: 30px;
+    padding-left: 430px;
+}
+.id, .pwd{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 15px;
+    width: 350px;
+    height: 40px;
+    border: 3px black solid;
+}
+.id:focus, .pwd:focus{
+    border-color: blue;
+    outline: none;
+}
+.make{
+    color:#666;
+    margin-top: 30px;
+    text-align: center;
+}
+.make a{
+    text-decoration:underline;
+    color: #666;
+}
+.Button{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    background-color:dimgray;
+    border-color:dimgray;
+    border-radius: 15px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+}

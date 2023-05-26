@@ -1,0 +1,52 @@
+.container{
+    margin:0 auto;  /* 화면 중앙에 배치 */
+    width:1200px;    /* 너비 */    
+    background-color: #fff;
+}
+.Header{
+    background-color: green;
+    height:50px;   /* 높이 */
+}
+.logo{
+    margin-top:70px;
+}
+.logo p{
+    font-size: 45px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.inputBox{
+    margin-top: 10px;
+    text-align: center;
+}
+.nameP, .pwdP, .telP{
+    font-size: 15px;
+    margin-top: 30px;
+    color:#666;
+    font-weight: 30px;
+    padding-left: 430px;
+}
+.name, .pwd, .tel{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 15px;
+    width: 350px;
+    height: 40px;
+    border: 3px black solid;
+}
+.name:focus, .pwd:focus, .tel:focus{
+    border-color: blue;
+    outline: none;
+}
+.Button{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    background-color:green;
+    border-color:green;
+    border-radius: 15px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+}
